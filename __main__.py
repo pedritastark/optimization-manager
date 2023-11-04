@@ -34,7 +34,6 @@ class OptimizerManager:
 
 
 
-    ## Metodo para graficar la funcion
     def GraphObjectiveFunction(self):
 
         '''
