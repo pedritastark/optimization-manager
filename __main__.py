@@ -35,7 +35,6 @@ class OptimizerManager:
 
 
     def GraphObjectiveFunction(self):
-
         '''
         Descripcion: Funcion para graficar la funcion objetivo.
 
