@@ -1,22 +1,26 @@
 # optimization-manager
-The Single-Variable Optimization Method Manager is a specialized repository dedicated to the management and execution of optimization methods for functions with a single variable. 
+'optimization-manager' es un repositorio especializado dedicado a la gestión y ejecución de métodos de optimización para funciones de una variable. 
 
 
 # Methods 
-Single-variable optimization methods often vary; some, such as those used for function search, do not require derivatives, while others, like Newton's method, necessitate the second partial derivative of the function.
+Los métodos de optimización para una variable a menudo varían; algunos, como los utilizados para la búsqueda de funciones, no requieren derivadas, mientras que otros, como el método de Newton, necesitan la segunda derivada parcial de la función.
 
-# Golden Section
+## Golden Section
 
-A method for finding the minimum of a strictly quasiconvex function f over an interval [a1, b1]
+Un método para encontrar el mínimo de una función estrictamente cuasiconvexa f en un intervalo [a, b].
 
+## Fibonacci
 
-# Fibonacci
+Este proceso se basa en la secuencia de Fibonacci:
+      
+      -  {Fr}∞r=0: F0=F1=1, Fr+1=Fr+Fr−1, r=1,2,3,.. 
+    
+Al igual que el anterior, se utiliza para encontrar el mínimo de una función estrictamente cuasiconvexa f en un intervalo [a, b].
 
-This process is based on the Fibonacci sequence {Fr}∞r=0: F0=F1=1, Fr+1=Fr+Fr−1, r=1,2,3,..
-Exactly like the previous one this is used for for finding the minimum of a strictly quasiconvex function f over an interval [a1, b1]
-# Bisection
+## Bisection
+
 Bisection search process to minimize a pseudoconvex function over an interval [a1, b1], For this, it is necessary for the function to have a well-defined first derivative over the interval [a1, b1].
 the function 
 
-# Newton
-Method to find the minimum of any function f: R → R, provided that it is C2 (twice continuously differentiable).
+## Newton
+Método para encontrar el mínimo de cualquier función f: R → R, siempre que sea C2 (dos veces continuamente diferenciable).
